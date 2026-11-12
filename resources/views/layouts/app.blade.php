@@ -214,6 +214,8 @@
         </div>
     </div>
 
+    @include('components.chatbot')
+
     @stack('scripts')
 </body>
 </html>
