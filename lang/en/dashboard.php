@@ -1,0 +1,26 @@
+<?php
+
+return [
+    'title' => 'Dashboard',
+    'welcome' => 'Hello :name 👋',
+    'subtitle' => 'Here is the state of your inventory today.',
+    'total_products' => 'Products tracked',
+    'stock_value' => 'Inventory value',
+    'low_stock' => 'Low stock alerts',
+    'movements_today' => 'Movements today',
+    'warehouses' => 'Active warehouses',
+    'in_this_month' => 'Inbound this month',
+    'out_this_month' => 'Outbound this month',
+    'movement_chart' => 'Flow over the last 14 days',
+    'entries' => 'Inbound',
+    'exits' => 'Outbound',
+    'low_stock_title' => 'Items to restock',
+    'low_stock_empty' => 'No item under its alert threshold. All good!',
+    'remaining' => 'Left: :count :unit',
+    'threshold' => 'Threshold :count',
+    'recent_movements' => 'Recent movements',
+    'pending_documents' => 'Documents in progress',
+    'no_documents' => 'No pending document.',
+    'view_all' => 'View all',
+    'restock' => 'Restock',
+];

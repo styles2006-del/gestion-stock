@@ -1,0 +1,26 @@
+<?php
+
+return [
+    'title' => 'Tableau de bord',
+    'welcome' => 'Bonjour :name 👋',
+    'subtitle' => 'Voici l\'état de votre stock aujourd\'hui.',
+    'total_products' => 'Articles référencés',
+    'stock_value' => 'Valeur du stock',
+    'low_stock' => 'Alertes stock bas',
+    'movements_today' => 'Mouvements aujourd\'hui',
+    'warehouses' => 'Dépôts actifs',
+    'in_this_month' => 'Entrées ce mois',
+    'out_this_month' => 'Sorties ce mois',
+    'movement_chart' => 'Flux des 14 derniers jours',
+    'entries' => 'Entrées',
+    'exits' => 'Sorties',
+    'low_stock_title' => 'Articles à réapprovisionner',
+    'low_stock_empty' => 'Aucun article sous son seuil d\'alerte. Tout va bien !',
+    'remaining' => 'Reste :count :unit',
+    'threshold' => 'Seuil :count',
+    'recent_movements' => 'Derniers mouvements',
+    'pending_documents' => 'Documents en cours',
+    'no_documents' => 'Aucun document en attente.',
+    'view_all' => 'Tout voir',
+    'restock' => 'Réapprovisionner',
+];

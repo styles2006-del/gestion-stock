@@ -1,0 +1,32 @@
+<?php
+
+return [
+    'title' => 'Mouvements de stock',
+    'new' => 'Nouveau mouvement',
+    'transfer' => 'Transfert entre dépôts',
+    'transfer_title' => 'Transférer du stock',
+    'transfer_subtitle' => 'Déplacez des quantités d\'un dépôt vers un autre.',
+    'type' => 'Type de mouvement',
+    'types' => [
+        'in' => 'Entrée',
+        'out' => 'Sortie',
+        'adjustment' => 'Ajustement',
+        'transfer' => 'Transfert',
+    ],
+    'warehouse' => 'Dépôt',
+    'from_warehouse' => 'Dépôt source',
+    'to_warehouse' => 'Dépôt destination',
+    'product' => 'Article',
+    'quantity' => 'Quantité',
+    'quantity_hint' => 'Pour un ajustement, saisissez la quantité réelle constatée.',
+    'unit_price' => 'Coût unitaire',
+    'reference' => 'Référence / Document',
+    'note' => 'Note',
+    'before' => 'Avant',
+    'after' => 'Après',
+    'variation' => 'Variation',
+    'empty' => 'Aucun mouvement enregistré.',
+    'empty_hint' => 'Les entrées et sorties apparaîtront ici.',
+    'delete_confirm' => 'Supprimer ce fournisseur ?',
+    'no_stock_available' => 'Stock disponible : :count',
+];

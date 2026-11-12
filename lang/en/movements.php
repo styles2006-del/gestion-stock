@@ -1,0 +1,32 @@
+<?php
+
+return [
+    'title' => 'Stock movements',
+    'new' => 'New movement',
+    'transfer' => 'Transfer between warehouses',
+    'transfer_title' => 'Transfer stock',
+    'transfer_subtitle' => 'Move quantities from one warehouse to another.',
+    'type' => 'Movement type',
+    'types' => [
+        'in' => 'Inbound',
+        'out' => 'Outbound',
+        'adjustment' => 'Adjustment',
+        'transfer' => 'Transfer',
+    ],
+    'warehouse' => 'Warehouse',
+    'from_warehouse' => 'Source warehouse',
+    'to_warehouse' => 'Destination warehouse',
+    'product' => 'Product',
+    'quantity' => 'Quantity',
+    'quantity_hint' => 'For an adjustment, enter the actual counted quantity.',
+    'unit_price' => 'Unit cost',
+    'reference' => 'Reference / Document',
+    'note' => 'Note',
+    'before' => 'Before',
+    'after' => 'After',
+    'variation' => 'Change',
+    'empty' => 'No movement recorded.',
+    'empty_hint' => 'Inbound and outbound will appear here.',
+    'delete_confirm' => 'Delete this movement?',
+    'no_stock_available' => 'Available stock: :count',
+];
